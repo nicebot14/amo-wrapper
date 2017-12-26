@@ -1,0 +1,21 @@
+{
+  "name": "andrewalf/amocrm-wrapper",
+  "description": "Обертка для работы с API amoCRM",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "repositories": [
+    {
+      "url": "https://github.com/nicebot14/amocrm-php.git",
+      "type": "git"
+    }
+  ],
+  "require": {
+    "nicebot14/amocrm": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "AmoWrapper\\": "src"
+    }
+  }
+}
